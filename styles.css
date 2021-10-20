@@ -1,0 +1,334 @@
+body ,h1,h2{
+    margin: 0px;
+    border: 0px;
+    
+   
+    
+    
+}
+body{
+    background: #AFB9C8;
+}
+
+header{
+    
+    background: #9FE6A0;
+    text-align: center;
+    padding: 5px auto;
+    color: #C56824;
+    font-family: cursive;
+    font-size: 1.6rem;
+    z-index: 1;
+    
+    width: 100%; 
+    position: relative;
+}
+header h1{
+    display: inline-block;
+}
+
+
+
+
+.city{
+   width: 100%;
+}
+.clou{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: .5;
+    width: 15%;
+}
+.cloud{
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    opacity: .5;
+    width: 15%;
+}
+.code{
+    position: absolute;
+    height: 68%;
+    width: 100%;
+    opacity: .2;
+}
+
+ .first p{
+    padding: 30px;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    top: 20%;
+    right: 10%;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    color:#2C2891
+    
+}
+.first span{
+    font-size: 1.3em;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 30px;
+    background: #9FE6A0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+
+}
+nav li{
+    display: inline-block;
+    width: 30%;
+    font-size: 1.8em;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #C56824;
+    font-family:'IM Fell English SC', serif;
+}
+nav li a:hover{
+    color: blueviolet;
+}
+
+.me{
+    
+    height: auto;
+    
+    width: 300px;
+    position: absolute;
+    left: 50%;
+}
+.main{
+    position: relative;
+    height: 400px;
+}
+
+.ll{
+    height: 200px;
+    position: absolute;
+    left: 40%;
+    top:50%;
+    
+}
+
+.main p{
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 2em;
+    padding: 0px 90px;
+    box-sizing: border-box;
+    
+}
+article{
+    padding: 0 50px;
+}
+
+article p{
+    text-align: center;
+}
+main h1{
+    margin-left: 20%;
+    font-family: 'Merienda', cursive;
+    font-size:xx-large;
+    color: #21094E;
+}
+article P{
+    font-size: 1.3em;
+    line-height: 1.8em;
+}
+.band ul{
+    max-width: 100%;
+   margin: 60px auto;
+
+}
+.band ul li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    white-space: nowrap;
+    
+}
+li img{
+    height: 200px;
+}
+.band{
+    margin: 30px auto;
+}
+.band li:hover{
+    top: -8px;
+}
+.form{
+    height: 300px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #9FE6A0;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-family: cursive;
+    
+}
+.form input{
+    width: 20%;
+    font-size: 1.2em;
+    border-radius: 10px 0 0 10px;
+    border: #AFB9C8 5px solid;
+
+}
+.form button{
+    border-radius: 0px 10px 10px 0;
+    border: #AFB9C8 5px solid;
+    font-size: 1.2em;
+    margin-left: -9px;
+    color: aliceblue;
+    background-color: black;
+    
+}
+.space{
+    height: 300px;
+}
+.places{
+    margin: 30px;
+    padding: 20px;
+    font-size: 1.3em;
+    font-family:'Merienda', cursive ;
+    line-height: 1.5em;
+    
+}
+.places h1{
+    margin-bottom: 40px;
+}
+.places img{
+    width:23%;
+}
+ .plc1{
+    float: left;
+}
+ .plc2{
+    float: right;
+}
+ .plc3{
+    float: left;
+}
+.places div p{
+    margin: auto 300px;
+}
+footer{
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+    background-color: cadetblue;
+    color: black;
+}
+@media screen and (max-width:500px) {
+    header h1{
+        
+        font-size: 1.0em;
+    }
+    .first p{
+        position: relative;
+        font-size: 1.3em;
+        text-align: center;
+        display:inline-block;
+        
+        background: #C56824;
+        width: 100%;
+        
+
+    }
+    .first span{
+        font-size: 1em;
+    }
+    .first br{
+        display: none;
+    }
+   
+    .code{
+        display: none;
+    }
+    nav li{
+        display:block;
+        margin: 20px auto;
+        font-size: 1.6em;
+        width: 100%;
+        
+        
+    }
+    nav li a{
+        width:11px;
+        
+        
+    }
+    .ll{
+        height: 100px;
+        top: -200px;
+        left: 0px;
+    }
+    .main p{
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.3em;
+        position: relative;
+        box-sizing: border-box;
+        
+    }
+    .band ul li{
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        position: relative;
+        white-space: nowrap;
+        margin: 20px auto;
+    }
+    .places img{
+        width:80%;
+        
+        
+    }
+    .space{
+        height: 800px;
+    }
+    .places div p{
+        margin: 300px auto;
+        clear: both;
+    }
+    .form{
+        height: 500px;
+        
+       
+        background: #9FE6A0;
+        text-align: center;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        font-family: cursive;
+    }
+    .form input{
+        width: 70%;
+        font-size: 1.2em;
+        border-radius: 10px 0 0 10px;
+        border: #AFB9C8 5px solid;
+    
+    }
+    .form button{
+        border-radius: 0px 10px 10px 0;
+        border: #AFB9C8 5px solid;
+        font-size: 1.2em;
+        margin-left: -9px;
+        color: aliceblue;
+        background-color: black;
+        
+    }
+    form label{
+        display: block;
+    }
+}
