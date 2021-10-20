@@ -106,12 +106,12 @@ nav li a:hover{
 }
 .main{
     position: relative;
-    height: 400px;
+    
 }
 
 .ll{
     height: 200px;
-    position: absolute;
+    position: relative;
     left: 40%;
     top:50%;
     
@@ -193,9 +193,7 @@ li img{
     background-color: black;
     
 }
-.space{
-    height: 300px;
-}
+
 .places{
     margin: 30px;
     padding: 20px;
@@ -219,6 +217,10 @@ li img{
  .plc3{
     float: left;
 }
+.places li{
+    display: block;
+    margin: 10%;
+}
 .places div p{
     margin: auto 300px;
 }
@@ -230,6 +232,7 @@ footer{
     color: black;
 }
 @media screen and (max-width:500px) {
+    
     header h1{
         
         font-size: 1.0em;
@@ -269,6 +272,7 @@ footer{
         
     }
     .ll{
+        position: absolute;
         height: 100px;
         top: -200px;
         left: 0px;
@@ -290,16 +294,20 @@ footer{
         white-space: nowrap;
         margin: 20px auto;
     }
+    .places {
+        margin: auto 0;
+        width: 100%;
+        padding: 0;
+    }
     .places img{
-        width:80%;
+        width:100%;
+        
         
         
     }
-    .space{
-        height: 800px;
-    }
-    .places div p{
-        margin: 300px auto;
+   
+    .places li p{
+        
         clear: both;
     }
     .form{
